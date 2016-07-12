@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>D3 is awesome</title>
+	<!-- Always include D3 first. -->
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<!-- Include main.js, which is where all our code lives -->
+	<script src="main.js"></script>
+	<!-- Include any styles we want to add to our page -->
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1>Average GPA</h1>
+	<!-- Our graph will be added inside this divider element -->
+	<div id="graph"></div>
+	<span>Choose Major and GPA:</span>
+	<select id="selection">
+		<option value="notSelected">Select major</option>
+	</select>
+	<input type="number" id="inputGPA"></input>
+	<button id="submit">Filter</button>
+</body>
+</html>
